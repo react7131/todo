@@ -5,7 +5,7 @@ export const TodoContext = createContext();
 const TodoContextProvider = (props) => {
     
   const [todos, setTodos] = useState([]);
-  const [filteredTodos, setFilteredTodos] = useState(todos);
+  const [filteredTodos, setFilteredTodos] = useState([]);
   const [selected, setSelected] = useState('all');
 
   const value = {

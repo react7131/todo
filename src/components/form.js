@@ -32,7 +32,7 @@ const Form = () => {
             <i className="fas fa-plus"></i> 
          </button>
          <div className="select">
-             <select onChange={(e) => setSelected(e.target.value)} value={selected} name="todos" className="filter-todo">
+             <select onChange={(e) => setSelected(e.target.value)} name="todos" className="filter-todo">
                 <option value="all">All</option>
                 <option value="completed">Completed</option>
                 <option value="uncompleted">Uncompleted</option>
